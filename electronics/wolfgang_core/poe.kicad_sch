@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cc02cad8-6c2c-4e17-8512-c325afe6443d")
+	(paper "A4")
+	(lib_symbols)
+	(text "copy poe stuff from old schematic\nchange rj45 connectors to something more robust"
+		(exclude_from_sim no)
+		(at 128.524 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb31a8a2-a158-43f0-adc9-28637afc3b7b")
+	)
+)

@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "43df3238-bf2f-43a4-a5aa-a6021e1c2d45")
+	(paper "A4")
+	(lib_symbols)
+	(text "keep leds\n\nteensy -> esp32\n(copy from imu board)\n\n"
+		(exclude_from_sim no)
+		(at 99.314 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28ef8e6c-23cf-413f-ae9c-e90294ec4e0f")
+	)
+)
