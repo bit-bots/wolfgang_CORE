@@ -2840,12 +2840,6 @@
 		(uuid "2de29098-6f58-4b64-a606-350fc31b3b9a")
 	)
 	(junction
-		(at 125.73 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2eb7cd3b-d62d-4e6a-ab07-37173dc968bf")
-	)
-	(junction
 		(at 105.41 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2918,12 +2912,6 @@
 		(uuid "5d55ec3a-0b69-4dcf-aa34-c2ef2bdd06b8")
 	)
 	(junction
-		(at 125.73 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60930202-7423-4b3b-a6fe-18eb1f9b3de8")
-	)
-	(junction
 		(at 88.9 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2952,6 +2940,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e98776d-4c85-4483-9e5f-5576ce77da6f")
+	)
+	(junction
+		(at 125.73 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9eaaa5b8-6097-48fa-89ba-6e7797fe792f")
 	)
 	(junction
 		(at 270.51 57.15)
@@ -3038,6 +3032,12 @@
 		(uuid "d0a2480f-15a6-4897-b0fe-37549879154e")
 	)
 	(junction
+		(at 125.73 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbf81a1f-e815-463e-8cbe-35f576699349")
+	)
+	(junction
 		(at 124.46 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3058,6 +3058,10 @@
 	(no_connect
 		(at 66.04 165.1)
 		(uuid "0fe47e25-fa1e-4769-b545-634daece7968")
+	)
+	(no_connect
+		(at 125.73 85.09)
+		(uuid "282636d7-ddf0-4a7b-bab1-44b0e9d727c9")
 	)
 	(wire
 		(pts
@@ -3231,6 +3235,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 88.9) (xy 140.97 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "249b314d-273c-44cf-a5f2-cd112843aec6")
+	)
+	(wire
+		(pts
 			(xy 102.87 114.3) (xy 107.95 114.3)
 		)
 		(stroke
@@ -3268,6 +3282,16 @@
 			(type default)
 		)
 		(uuid "2e0bc2ed-0d9c-4a6c-9555-179f84e56b78")
+	)
+	(wire
+		(pts
+			(xy 140.97 96.52) (xy 140.97 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eba0e3d-0ae0-4881-aff5-6a97021eca47")
 	)
 	(wire
 		(pts
@@ -3448,16 +3472,6 @@
 			(type default)
 		)
 		(uuid "55636b57-7930-4364-be16-ffc8e19dd375")
-	)
-	(wire
-		(pts
-			(xy 140.97 85.09) (xy 125.73 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b87214-2f5d-4526-9107-81e715e839dd")
 	)
 	(wire
 		(pts
@@ -3941,16 +3955,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 85.09) (xy 125.73 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b71678e2-3b86-4364-86b7-84b9e1357e21")
-	)
-	(wire
-		(pts
 			(xy 96.52 138.43) (xy 106.68 138.43)
 		)
 		(stroke
@@ -3998,16 +4002,6 @@
 			(type default)
 		)
 		(uuid "c16f9473-b1b3-46f6-8647-57c18d52be55")
-	)
-	(wire
-		(pts
-			(xy 124.46 96.52) (xy 125.73 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c18516e3-2665-4e2b-86b7-a0f5f622212e")
 	)
 	(wire
 		(pts
@@ -4068,6 +4062,16 @@
 			(type default)
 		)
 		(uuid "d279ac30-c78d-4aab-a580-7257e8a357cd")
+	)
+	(wire
+		(pts
+			(xy 125.73 92.71) (xy 125.73 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88a7572-e595-4ef0-bcfd-035db40046f5")
 	)
 	(wire
 		(pts
@@ -4181,16 +4185,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 96.52) (xy 140.97 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0b5940c-f146-4c00-99e6-08ba2863c4e3")
-	)
-	(wire
-		(pts
 			(xy 146.05 38.1) (xy 160.02 38.1)
 		)
 		(stroke
@@ -4253,16 +4247,6 @@
 		)
 		(uuid "05fcd8ce-88fd-4af9-970b-097aca967845")
 	)
-	(text "TODO: find correct values of the resistors around the LTC44418IUF"
-		(exclude_from_sim no)
-		(at 84.328 124.206 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "257d6609-d993-4d43-99a4-07fa1a5d8fe7")
-	)
 	(text "Supply Selection"
 		(exclude_from_sim no)
 		(at 59.182 16.51 0)
@@ -4283,7 +4267,17 @@
 		)
 		(uuid "558bbfd3-1d48-44da-92ed-4d8f3add5f5d")
 	)
-	(text "Note: When contiiung to copy the design, make sure to copy e.g. Figure 10 so that both inputs are hotswappable."
+	(text "Values for V-Div from CIT team.\nMotivation for exact values unknown\nThey will work, but examples in\nthe datasheet are always a lot\nbgger (e.g. R5=R9=1M Ohm)"
+		(exclude_from_sim no)
+		(at 33.02 84.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "573a0f3e-7eb6-4f7a-a074-b40e2c261391")
+	)
+	(text "Note: When continuiung to copy the design, make sure to copy e.g. Figure 10 so that both inputs are hotswappable."
 		(exclude_from_sim no)
 		(at 106.426 126.746 0)
 		(effects
@@ -4699,6 +4693,73 @@
 			(project "wolfgang_core"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/03085433-09a6-46e6-a151-340cb0e29306"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1522d4f8-a167-4ccf-b08e-91022bf3b53d")
+		(property "Reference" "#PWR036"
+			(at 46.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b4a69bb-3aa6-42d4-be8f-86d6533d210c")
+		)
+		(instances
+			(project "wolfgang_core"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/03085433-09a6-46e6-a151-340cb0e29306"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5469,7 +5530,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "1k"
 			(at 69.85 83.312 90)
 			(effects
 				(font
@@ -6120,7 +6181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "18k"
 			(at 61.976 90.17 0)
 			(effects
 				(font
@@ -6189,7 +6250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "2k"
 			(at 75.946 78.74 0)
 			(effects
 				(font
@@ -6768,7 +6829,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "2k"
 			(at 61.976 95.25 0)
 			(effects
 				(font
@@ -6837,7 +6898,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "18k"
 			(at 75.946 73.66 0)
 			(effects
 				(font
@@ -7495,6 +7556,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 67.31 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c02be5bf-b8ed-49d8-bcd1-bdf784570fe2")
+		(property "Reference" "#PWR035"
+			(at 60.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7be7635b-01ab-4cbc-9b15-1221ec956d98")
+		)
+		(instances
+			(project "wolfgang_core"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8/03085433-09a6-46e6-a151-340cb0e29306"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 72.39 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7665,10 +7793,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d20cdfe9-b649-466e-82d0-4d662ec8a8c4")
 		(property "Reference" "C14"
-			(at 110.49 110.4962 0)
+			(at 108.712 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7676,8 +7803,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 110.49 113.0362 0)
+		(property "Value" "1nF"
+			(at 108.966 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7805,10 +7932,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d9e0fa73-718e-45ee-8437-7fbd4b2f054e")
 		(property "Reference" "R13"
-			(at 105.41 110.4899 0)
+			(at 100.838 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7816,8 +7942,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
-			(at 105.41 113.0299 0)
+		(property "Value" "0"
+			(at 104.902 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8534,7 +8660,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "1k"
 			(at 55.88 99.822 90)
 			(effects
 				(font
