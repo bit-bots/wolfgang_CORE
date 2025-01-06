@@ -4660,7 +4660,7 @@
 		)
 		(uuid "05fcd8ce-88fd-4af9-970b-097aca967845")
 	)
-	(text "For 3.3V/5V: LMZM23601V5SILT, LMZM23601V3SILT"
+	(text "For 3.3V/5V: VXO7803-500-M-TR or ROF-78E5.0-0.5SMD-R "
 		(exclude_from_sim no)
 		(at 78.74 146.558 0)
 		(effects
