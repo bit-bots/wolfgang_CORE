@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "ltc4418")(type "KiCad")(uri "${KIPRJMOD}/lib/ltc4418.kicad_sym")(options "")(descr ""))
   (lib (name "SMBJ15CA")(type "KiCad")(uri "${KIPRJMOD}/lib/SMBJ15CA.kicad_sym")(options "")(descr ""))
+  (lib (name "VXO7803-500-M-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/VXO7803-500-M-TR.kicad_sym")(options "")(descr ""))
 )

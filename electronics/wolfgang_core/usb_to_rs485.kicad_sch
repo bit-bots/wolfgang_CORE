@@ -6632,7 +6632,6 @@
 	)
 	(label "TX1"
 		(at 182.88 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6643,7 +6642,6 @@
 	)
 	(label "TX2"
 		(at 182.88 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6654,7 +6652,6 @@
 	)
 	(label "EN1"
 		(at 182.88 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6665,7 +6662,6 @@
 	)
 	(label "TX3"
 		(at 182.88 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6676,7 +6672,6 @@
 	)
 	(label "RX3"
 		(at 182.88 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6687,7 +6682,6 @@
 	)
 	(label "TX0"
 		(at 182.88 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6698,7 +6692,6 @@
 	)
 	(label "RX2"
 		(at 182.88 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6709,7 +6702,6 @@
 	)
 	(label "RX1"
 		(at 182.88 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6720,7 +6712,6 @@
 	)
 	(label "EN0"
 		(at 181.61 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6731,7 +6722,6 @@
 	)
 	(label "RX0"
 		(at 182.88 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6742,7 +6732,6 @@
 	)
 	(label "EN3"
 		(at 182.88 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6753,7 +6742,6 @@
 	)
 	(label "EN2"
 		(at 182.88 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
