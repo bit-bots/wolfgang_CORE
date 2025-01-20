@@ -6657,7 +6657,7 @@
 		)
 		(uuid fc4c962d-8bdc-436c-9dee-f5454b03e398)
 	)
-	(text "new:\n3v3 500mA source for esp32\n19v 5A source for \"nuc\"\n\nnot required:\n9v source\nindividual cell sensing for batteries"
+	(text "new:\n3v3 500mA source for esp32\n19v 5A source for \"nuc\"\nltc4418 based supply selection\nsoft start on power switch\n\nnot required:\n9v source\nindividual cell sensing for batteries"
 		(exclude_from_sim no)
 		(at 30.226 138.938 0)
 		(effects
@@ -6776,6 +6776,17 @@
 			)
 		)
 		(uuid "7673eb33-f1a1-4f78-b789-8dfe77cbba57")
+	)
+	(text "Options for 19V power supply: (basedd on Texas Instruments WEBENCH)\n- TPS43061 or TPS43060 (or similar. Some of these seem to not require an external mosfet)\n- LM3488 or LM3481 (large enough to be hand soldered, but requires external mosfet)\n- A few members of the LM515 series"
+		(exclude_from_sim no)
+		(at 14.478 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e931c0d-502e-4038-8242-2f12643c563e")
 	)
 	(text "Note: When continuiung to copy the design, make sure to copy e.g. Figure 10 so that both inputs are hotswappable."
 		(exclude_from_sim no)
